@@ -1,17 +1,17 @@
-let peso = parseFloat(prompt('Inserisci il tuo peso'));
-let altezza = parseFloat(prompt('Inserisci la tua altezza'));
-const imc = (peso / (altezza * altezza)).toFixed(2);
-
-let classificazioneIMC;
+function Click()    {
+    const peso = parseFloat(document.getElementById('peso').value)
+    const altezza=parseFloat(document.getElementById('altezza').value)
+    const imc= (peso / (altezza * altezza)).toFixed(2)
+    console.log(imc)
+    console.log(peso)
+    console.log(altezza)
+    document.getElementById('dai').innerHTML = 'Il tuo IMC è '+ imc
     if (imc < 18.5) {
-        classificazioneIMC = "sottopeso";
-    } else if (imc >= 18.5 && imc < 25) {
-        classificazioneIMC = "normopeso";
-    } else if (imc >= 25 && imc < 30) {
-        classificazioneIMC = "sovrappeso";
-    } else {
-        classificazioneIMC = "obeso";
+        document.getElementById('imc').innerHTML= 'Sottopeso'}
+    else if (18.5 < imc < 25) {
+        document.getElementById('imc').innerHTML= 'Normopeso'
     }
-
-console.log('Il tuo IMC è ' + imc + ', classificabile come soggetto ' + classificazioneIMC);
-alert('Il tuo IMC è ' + imc + ', classificabile come soggetto ' + classificazioneIMC);
+    else if (imc > 25) {
+        document.getElementById('imc').innerHTML= 'Sovrappeso'
+    }
+}

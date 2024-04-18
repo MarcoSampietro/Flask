@@ -1,11 +1,34 @@
-<!DOCTYPE html>
 <html>
     <head>
-        <meta charset="UTF-8">
-        <title>Calcolatore IMC</title>
+        <script type=text/javascript src="{{url_for('static', filename='js/scriptimc.js')}}"></script>
+        <title>
+            {{titolo}}
+        </title>
     </head>
     <body>
-        <img src="{{url_for('static', filename='images/imc.webp')}}", align="middle"/>
-        <script src="{{url_for('static', filename='js/scriptimc.js')}}"></script>
+        <h1>
+            {{h1}}
+        </h1>
+        <p>
+            {{testo}}
+        </p>
+        <p>
+            {{peso}}
+            <input type="number" id="peso">
+        </p>
+        <p>
+            {{altezza}}
+            <input type="number" id="altezza">
+        </p>
+        <p id="dai"> 
+        </p>
+        <p id="imc">
+             
+        </p>
+        <p id="img">
+             
+        </p>
+        
+        <button onclick="Click()">{{Inizia}}</button>
     </body>
 </html>
