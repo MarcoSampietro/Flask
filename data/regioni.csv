@@ -1,0 +1,21 @@
+nome_regione,capoluogo,popolazione_regione,popolazione_capoluogo,percorso_immagine
+Lombardia,Milano,10000000,1300000,/workspace/Flask/data/img_regioni/Lombardia.png
+Veneto,Venezia,5000000,260000,/workspace/Flask/data/img_regioni/Veneto.png
+Lazio,Roma,6000000,2800000,/workspace/Flask/data/img_regioni/Lazio.jpg
+Campania,Napoli,5800000,1000000,/workspace/Flask/data/img_regioni/Campania.png
+Sicilia,Palermo,5000000,670000,/workspace/Flask/data/img_regioni/Sicilia.png
+Emilia-Romagna,Bologna,4500000,390000,/workspace/Flask/data/img_regioni/Emilia-Romagna.png
+Piemonte,Torino,4300000,870000,/workspace/Flask/data/img_regioni/Piemonte.png
+Puglia,Bari,4000000,320000,/workspace/Flask/data/img_regioni/Puglia.png
+Toscana,Firenze,3700000,380000,/workspace/Flask/data/img_regioni/Toscana.png
+Calabria,Catanzaro,2000000,90000,/workspace/Flask/data/img_regioni/Calabria.png
+Sardegna,Cagliari,1600000,150000,/workspace/Flask/data/img_regioni/Sardegna.png
+Liguria,Genova,1600000,580000,/workspace/Flask/data/img_regioni/Liguria.png
+Marche,Ancona,1500000,100000,/workspace/Flask/data/img_regioni/Marche.png
+Abruzzo,L'Aquila,1300000,70000,/workspace/Flask/data/img_regioni/Abruzzo.png
+Friuli-Venezia Giulia,Trieste,1200000,200000,/workspace/Flask/data/img_regioni/Friuli-Venezia-Giulia.png
+Trentino-Alto Adige,Trento,1100000,120000,/workspace/Flask/data/img_regioni/Trentino-Alto-Adige.png
+Umbria,Perugia,900000,170000,/workspace/Flask/data/img_regioni/Umbria.png
+Basilicata,Potenza,600000,69000,/workspace/Flask/data/img_regioni/Basilicata.png
+Molise,Campobasso,300000,50000,/workspace/Flask/data/img_regioni/Molise.png
+Valle d'Aosta,Aosta,130000,34000,/workspace/Flask/data/img_regioni/Valle-d'Aosta.png
