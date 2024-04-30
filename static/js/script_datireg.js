@@ -1,10 +1,11 @@
 function get_elenco(){
-    fetch('https://3245-marcosampietro-flask-f3mb8qsfjka.ws-eu110.gitpod.io/elenco')
+    fetch('https://3245-marcosampietro-flask-vdd5iypimlj.ws-eu110.gitpod.io/elenco')
     .then(response => response.json())
     .then(data => {
-        console.log(data)
+        let elenco = '';
         for (let regione in data) {
-            document.getElementById('elenco').innerHTML += data[regione] + '<br />'
+            elenco += '<a href="/info/' + data[regione] + '">' + data[regione] + '</a><br />';
         }
+        document.getElementById('elenco').innerHTML = elenco;
     })
 }
