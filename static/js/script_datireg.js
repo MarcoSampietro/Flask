@@ -1,5 +1,5 @@
 function get_elenco(){
-    fetch('https://3245-marcosampietro-flask-vdd5iypimlj.ws-eu110.gitpod.io/elenco')
+    fetch('https://3245-marcosampietro-flask-1l0qkka0ldx.ws-eu112.gitpod.io/elenco')
     .then(response => response.json())
     .then(data => {
         let elenco = '';
